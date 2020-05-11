@@ -23,13 +23,7 @@
 
 ## Quick Start
 
-```bash
-yarn global add trnc
-```
-
-```bash
-trnc init <ProjectName>
-```
+See below
 
 
 ## Features
@@ -101,11 +95,11 @@ trnc init <ProjectName>
     <button onClick={ this.handleClick }></button>
     ```
 
-## Installation without [trnc](https://github.com/NewBieBR/typescript-react-native-starter#quick-start)
+## Installation
 
 - Clone this repo
   ```
-  git clone git@github.com:NewBieBR/typescript-react-native-starter.git <PROJECT_NAME>
+  git clone git@github.com:fxcosta/react-native-typescript-template.git <PROJECT_NAME>
   ```
   ```
   cd <PROJECT_NAME>
@@ -130,7 +124,7 @@ trnc init <ProjectName>
 - Clone this repo
 
   ```
-  git clone git@github.com:NewBieBR/typescript-react-native-starter.git <PROJECT_NAME>
+  git clone git@github.com:fxcosta/react-native-typescript-template.git <PROJECT_NAME>
   ```
 
   ```
