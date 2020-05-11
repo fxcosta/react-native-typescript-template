@@ -1,4 +1,4 @@
-import {UsersTypes, Userstate} from './types';
+import {UsersTypes, Userstate, FetchAction} from './types';
 import {Reducer} from 'redux';
 
 const initialState: Userstate = {
@@ -7,7 +7,7 @@ const initialState: Userstate = {
   error: false,
 };
 
-const reducer: Reducer<Userstate> = (state = initialState, action) => {
+const reducer: Reducer<Userstate, FetchAction> = (state = initialState, action: FetchAction) => {
   switch (action.type) {
     case UsersTypes.FETCH_SUCCCES:
       return {...state, data: action.payload};
